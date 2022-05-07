@@ -1,0 +1,33 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<nav class="nav has-shadow" id="top">
+  <div class="container">
+    <div class="nav-left">
+      <a class="nav-item" routerLink="/">
+        Quick Notes:
+            <span [ngClass]="socketStatus$ | async"> </span>
+      </a>
+    </div>
+    <span class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+    <div class="nav-right nav-menu">
+      <a class="nav-item is-tab" routerLink="/notes" [routerLinkActive]="'is-active'">
+        Notes
+      </a>
+      <a class="nav-item is-tab" href="https://www.linkedin.com/in/o%C4%9Fuzhan-%C3%A7art-b73405199/" target="_blank">
+        Contact
+      </a>
+
+    </div>
+  </div>
+</nav>
+<section class="section">
+  <div class="container content">
+    <router-outlet></router-outlet>
+  </div>
+
+</section>
+
+

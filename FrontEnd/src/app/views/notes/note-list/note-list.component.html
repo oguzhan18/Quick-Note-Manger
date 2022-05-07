@@ -1,0 +1,10 @@
+<div class="is-clearfix">
+  <a class="button is-info is-pulled-right" (click)="addNote({username:user})">
+    <span class="fa fa-plus"></span>
+    ADD
+  </a>
+</div>
+<p class="has-text-centered">List of notes</p>
+<app-note-item *ngFor=" let note of notes$ | async" [note]="note" (onNoteUpdated)="updateNote($event)"
+  (onNoteDeleted)="deleteNote($event)">
+</app-note-item>

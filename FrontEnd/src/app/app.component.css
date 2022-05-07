@@ -1,0 +1,15 @@
+.connected {
+    color: green;
+}
+
+.connected:after {
+    content: 'CONNECTED';
+}
+
+.disconnected {
+    color: red;
+}
+
+.disconnected:after {
+    content: 'DISONNECTED';
+}

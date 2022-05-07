@@ -1,0 +1,11 @@
+{
+  "name": "quicknote",
+  "version": "1.0.0",
+  "description": "Temporary Quick Note",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oğuzhan ÇART",
+  "license": "MIT"
+}

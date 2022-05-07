@@ -1,0 +1,16 @@
+{
+  "name": "BackEnd",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Oğuzhan ÇART",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~4.15.2",
+    "lodash": "^4.17.4",
+    "socket.io": "^2.0.3",
+    "uuid": "^3.1.0"
+  }
+}
